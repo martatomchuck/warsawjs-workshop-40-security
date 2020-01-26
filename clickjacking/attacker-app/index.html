@@ -1,0 +1,36 @@
+<style>
+    iframe {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        border: 0;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .attacker-app {
+        z-index: 999;
+        position: absolute;
+        top: 0;
+        opacity: 1;
+    }
+
+</style>
+
+<iframe
+    src="http://localhost:7000">
+</iframe>
+<!-- domyślny rozmiar iframe: 400px x 200px -->
+
+<div class="attacker-app">
+
+    <h1>ATTACKER APP</h1>
+
+    <p>Welcome <span class="user-login"></span></p>
+
+    <button class="login-btn">LOGIN</button>
+    <button class="more-kittens">Load more</button>
+
+</div>
